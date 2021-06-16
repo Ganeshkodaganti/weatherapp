@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COLOR CHANGE</title>
+    <script >
+        function change() {
+    var v = document.getElementById('test').value;
+    document.getElementById('sample').style.color = v;
+}
+        </script>
+</head>
+<body id="1">
+   <h1 id="sample"> TEXT COLOR </h1>
+   <select id="test">
+       <option>--SELECT--</option>
+       <option value="red">RED</option>
+       <option value="green">GREEN</option>
+       <option value="blue">BLUE</option>
+   </select>
+   <button type="submit" onclick="change()">CLICK</button>
+</body>
+</html>
